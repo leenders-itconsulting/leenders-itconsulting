@@ -8601,3 +8601,19 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+
+.subtitle {
+    font-size: 2.2rem !important;
+    font-weight: 700 !important;
+    color: #223f74 !important;
+    line-height: 1.2;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.role {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
