@@ -385,3 +385,19 @@
 	.banner.onscroll-image-fade-in.is-inactive .image img {
 		opacity: 1;
 	}
+
+	.subtitle {
+		font-size: 2rem;
+		font-weight: 700;
+		color: #223f74;
+		margin-bottom: 0.25rem;
+		line-height: 1.2;
+	}
+ 
+	.role {
+		font-size: 0.9rem;
+		text-transform: uppercase;
+		letter-spacing: 0.2rem;
+		color: #666;
+		margin-bottom: 1.5rem;
+	}
