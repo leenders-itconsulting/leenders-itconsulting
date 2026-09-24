@@ -8616,3 +8616,21 @@ p.role {
     color: #666;
     margin-bottom: 2rem;
 }
+.highlights {
+    list-style: none;
+    margin-top: 2em;
+    padding-left: 0;
+}
+
+.highlights li {
+    margin-bottom: 0.8em;
+    font-weight: 500;
+    color: #223f74;
+}
+
+.highlights li:before {
+    content: "✓";
+    color: #223f74;
+    font-weight: bold;
+    margin-right: 0.75em;
+}
