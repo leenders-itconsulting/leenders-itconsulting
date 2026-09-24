@@ -8617,10 +8617,17 @@ p.role {
     margin-bottom: 2rem;
 }
 
+
+}
+.logo-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .logo-image img {
-    width: 50%;
-    max-width: 800px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+    position: static !important;
+    width: 65% !important;
+    height: auto !important;
+    object-fit: contain !important;
 }
