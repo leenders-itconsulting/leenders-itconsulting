@@ -8617,17 +8617,7 @@ p.role {
     margin-bottom: 2rem;
 }
 
-
-}
-.logo-image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .logo-image img {
-    position: static !important;
-    width: 65% !important;
-    height: auto !important;
-    object-fit: contain !important;
+    transform: scale(0.75);
 }
+
