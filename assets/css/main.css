@@ -8634,3 +8634,19 @@ p.role {
     font-weight: bold;
     margin-right: 0.75em;
 }
+
+/* Expertise sectie */
+
+.items.style1 {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.items.style1 section {
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+}
+
