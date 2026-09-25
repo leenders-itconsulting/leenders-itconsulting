@@ -8635,9 +8635,36 @@ p.role {
     margin-right: 0.75em;
 }
 
-.wrapper .items.style1 {
-    display: grid !important;
-    grid-template-columns: repeat(2, 1fr) !important;
-    gap: 2rem !important;
+/* Mijn expertise */
+
+.expertise-intro {
+    max-width: 900px;
+    margin: 0 auto 3rem auto;
 }
 
+.expertise-list {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.expertise-item {
+    padding: 2rem 0;
+    border-bottom: solid 1px rgba(0,0,0,0.1);
+}
+
+.expertise-item:last-child {
+    border-bottom: none;
+}
+
+.expertise-item h3 {
+    color: #223f74;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+}
+
+.expertise-item p {
+    margin: 0;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
