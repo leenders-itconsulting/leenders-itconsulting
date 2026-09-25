@@ -8663,4 +8663,73 @@ p.role {
     line-height: 1.8;
     color: #555;
 }
-``
+
+/* Uitgelichte opdrachten */
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.project-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    min-height: 450px;
+}
+
+.project-card img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    display: block;
+    transition: transform .3s ease;
+}
+
+.project-card:hover img {
+    transform: scale(1.05);
+}
+
+.project-overlay {
+    position: absolute;
+    inset: 0;
+
+    background: linear-gradient(
+        to top,
+        rgba(0,0,0,0.85),
+        rgba(0,0,0,0.15)
+    );
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    padding: 2rem;
+}
+
+.project-overlay h3 {
+    color: white;
+    margin-bottom: .5rem;
+}
+
+.project-overlay p {
+    margin-bottom: 1rem;
+    font-weight: 600;
+    opacity: .95;
+}
+
+.project-overlay span {
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 980px) {
+
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
