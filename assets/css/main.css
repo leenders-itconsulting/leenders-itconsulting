@@ -8733,3 +8733,10 @@ p.role {
     }
 
 }
+.spotlight .image {
+    width: 40% !important;
+}
+
+.spotlight .content {
+    width: 60% !important;
+}
