@@ -8740,3 +8740,10 @@ p.role {
 .spotlight .content {
     width: 60% !important;
 }
+.project-role {
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    color: #223f74;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
