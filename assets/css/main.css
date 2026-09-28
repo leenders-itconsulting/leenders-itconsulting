@@ -8747,3 +8747,14 @@ p.role {
     font-weight: 600;
     margin-bottom: 1rem;
 }
+.project-highlights {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1rem;
+}
+
+.project-highlights li::before {
+    content: "✓ ";
+    color: #223f74;
+    font-weight: bold;
+}
