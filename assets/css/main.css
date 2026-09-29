@@ -8893,14 +8893,14 @@ footer .icons .icon {
 
 }
 .closing-statement {
-    margin-top: 5rem;
+    margin-top: 3rem;
     font-size: 1.4rem;
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
 }
 .closing-statement {
-    margin-top: 5rem;
+    margin-top: 3rem;
     margin-bottom: 2rem;
     font-size: 1.5rem;
     line-height: 1.8;
@@ -8925,9 +8925,13 @@ footer.section-dark {
 footer.section-dark .inner {
     padding-top: 0 !important;
 }
-.section-dark .contact-item .icon {
+.section-dark .contact-item a.icon {
     color: white !important;
-    border: solid 1px rgba(255,255,255,0.5) !important;
+    border-color: rgba(255,255,255,0.5) !important;
+}
+
+.section-dark .contact-item a.icon:hover {
+    border-color: white !important;
 }
 .section-dark .contact-item .icon {
     font-size: 1.25rem;
