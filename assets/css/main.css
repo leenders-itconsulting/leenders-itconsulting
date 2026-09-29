@@ -8899,3 +8899,14 @@ footer .icons .icon {
     margin-left: auto;
     margin-right: auto;
 }
+.closing-statement {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.8;
+    font-style: italic;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.95;
+}
