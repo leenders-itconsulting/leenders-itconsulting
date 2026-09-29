@@ -8845,3 +8845,21 @@ footer .icons .icon {
 .section-dark .icons.large a:hover {
     opacity: 1;
 }
+.section-dark .icons a {
+    color: white !important;
+    border-color: rgba(255,255,255,0.25) !important;
+}
+
+.section-dark .icons a:hover {
+    color: white !important;
+    border-color: white !important;
+}
+.closing-statement {
+    margin-top: 4rem;
+    font-size: 1.3rem;
+    line-height: 1.8;
+    font-style: italic;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
