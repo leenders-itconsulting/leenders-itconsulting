@@ -8788,3 +8788,30 @@ p.role {
 .section-dark textarea::placeholder {
     color: rgba(255,255,255,0.7);
 }
+.section-dark input,
+.section-dark textarea {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.15);
+}
+
+.section-dark input:focus,
+.section-dark textarea:focus {
+    border-color: rgba(255,255,255,0.4);
+}
+.section-dark input[type="submit"] {
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.5);
+    color: white;
+}
+footer .icons a {
+    opacity: 0.7;
+    transition: all 0.2s ease;
+}
+
+footer .icons a:hover {
+    opacity: 1;
+}
+
+footer .icons .icon {
+    font-size: 1.1rem;
+}
