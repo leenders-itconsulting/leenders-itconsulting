@@ -8758,3 +8758,33 @@ p.role {
     color: #223f74;
     font-weight: bold;
 }
+/* ======================================
+   Sectie achtergronden
+   ====================================== */
+
+.section-alt {
+    background-color: #F7F9FC;
+}
+
+.section-dark {
+    background-color: #223F74;
+}
+
+.section-dark h2,
+.section-dark h3,
+.section-dark p,
+.section-dark label {
+    color: #ffffff !important;
+}
+
+.section-dark input,
+.section-dark textarea {
+    background: rgba(255,255,255,0.1);
+    border-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.section-dark input::placeholder,
+.section-dark textarea::placeholder {
+    color: rgba(255,255,255,0.7);
+}
