@@ -8815,3 +8815,33 @@ footer .icons a:hover {
 footer .icons .icon {
     font-size: 1.1rem;
 }
+.contact-text {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-text strong {
+    color: white;
+}
+
+.closing-statement {
+    margin-top: 3rem;
+    font-style: italic;
+    opacity: 0.85;
+}
+
+.section-dark .icons.large {
+    margin: 2rem 0;
+}
+
+.section-dark .icons.large .icon {
+    font-size: 1.75rem;
+}
+
+.section-dark .icons.large a {
+    opacity: 0.9;
+}
+
+.section-dark .icons.large a:hover {
+    opacity: 1;
+}
