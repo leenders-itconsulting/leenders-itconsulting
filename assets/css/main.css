@@ -8910,3 +8910,18 @@ footer .icons .icon {
     margin-right: auto;
     opacity: 0.95;
 }
+.section-dark a {
+    color: white !important;
+}
+
+.section-dark a:hover {
+    color: rgba(255,255,255,0.8) !important;
+}
+
+footer.section-dark {
+    padding-top: 2rem !important;
+}
+
+footer.section-dark .inner {
+    padding-top: 0 !important;
+}
