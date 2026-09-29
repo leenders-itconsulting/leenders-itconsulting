@@ -8926,10 +8926,15 @@ footer.section-dark .inner {
     padding-top: 0 !important;
 }
 .section-dark .contact-item a.icon {
-    color: white !important;
-    border: 1px solid rgba(255,255,255,0.5) !important;
-    border-radius: 100% !important;
+    color: #ffffff !important;
+}
+
+.section-dark .contact-item a.icon:before {
+    color: #ffffff !important;
 }
 .section-dark .contact-item .icon {
     font-size: 1.25rem;
+}
+.section-dark .contact-item a.icon {
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.5);
 }
