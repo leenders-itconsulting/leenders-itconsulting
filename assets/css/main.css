@@ -8927,11 +8927,8 @@ footer.section-dark .inner {
 }
 .section-dark .contact-item a.icon {
     color: white !important;
-    border-color: rgba(255,255,255,0.5) !important;
-}
-
-.section-dark .contact-item a.icon:hover {
-    border-color: white !important;
+    border: 1px solid rgba(255,255,255,0.5) !important;
+    border-radius: 100% !important;
 }
 .section-dark .contact-item .icon {
     font-size: 1.25rem;
