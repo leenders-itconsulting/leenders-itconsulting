@@ -8929,12 +8929,11 @@ footer.section-dark .inner {
     color: #ffffff !important;
 }
 
-.section-dark .contact-item a.icon:before {
+.section-dark .contact-item a.icon::before {
     color: #ffffff !important;
 }
-.section-dark .contact-item .icon {
-    font-size: 1.25rem;
-}
-.section-dark .contact-item a.icon {
-    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.5);
+
+/* Story-cirkel wit maken */
+.section-dark .contact-item a.icon.style2::before {
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.6) !important;
 }
